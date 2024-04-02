@@ -69,9 +69,6 @@ public class PlayerMovement : MonoBehaviour
         Look();
     }
 
-    /// <summary>
-    /// Find user input. Should put this in its own class but im lazy
-    /// </summary>
     private void MyInput()
     {
         x = Input.GetAxisRaw("Horizontal");
@@ -229,11 +226,10 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    /// <summary>
+
     /// Find the velocity relative to where the player is looking
     /// Useful for vectors calculations regarding movement and limiting movement
-    /// </summary>
-    /// <returns></returns>
+
     public Vector2 FindVelRelativeToLook()
     {
         float lookAngle = orientation.transform.eulerAngles.y;
@@ -293,5 +289,7 @@ public class PlayerMovement : MonoBehaviour
     {
         grounded = false;
     }
+
+
 
 }
