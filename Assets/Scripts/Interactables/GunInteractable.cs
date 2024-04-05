@@ -5,9 +5,11 @@ using UnityEngine.UI;
 public class GunInteractable : Interactable
 {
     public GameObject gun;
+    public Transform camera;
     public Transform playerHand;
 
     private GunRotationDemo gunRotation;
+    private Vector3 offset = new Vector3(0, 0, 0.03f);
 
 
 
@@ -19,8 +21,10 @@ public class GunInteractable : Interactable
 
     protected override void Interact()
     {
+        gun.GetComponent<MeshCollider>().enabled = false;
         gunRotation.enabled = false;
-        gun.transform.SetParent(playerHand);
-        gun.transform.SetLocalPositionAndRotation(Vector3.zero, Quaternion.Euler(-90, 0, 0));
+        gun.transform.SetParent(camera);
+        gun.transform.SetLocalPositionAndRotation(playerHand.localPosition, Quaternion.Euler(-90, 0, 0));
+        gun.transform.position = playerHand.position + offset;
     }
 }
