@@ -13,6 +13,7 @@ public class MoveCamera : MonoBehaviour
 
     void Update()
     {
+        if (PauseMenu.GameIsPaused) { return; }
         transform.position = playerTransform.position;
     }
 

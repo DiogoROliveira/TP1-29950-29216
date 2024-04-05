@@ -1,6 +1,6 @@
 using PixelGunsPack;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 public class GunInteractable : Interactable
 {

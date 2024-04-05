@@ -19,6 +19,7 @@ public class PlayerInteract : MonoBehaviour
     void Update()
     {
         playerUI.UdpateText(string.Empty);
+        if (PauseMenu.GameIsPaused) { return; }
         Ray ray = new Ray(playerCam.transform.position, playerCam.transform.forward);
         Debug.DrawRay(ray.origin, ray.direction * distance);
         RaycastHit hitInfo; // var to store collision info.
