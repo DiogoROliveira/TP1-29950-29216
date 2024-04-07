@@ -1,10 +1,12 @@
 using System;
 using UnityEngine;
+using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
 
-    //Assingables
+
+    [Header("Assignables")]
     public Transform playerCam;
     public Transform orientation;
 
@@ -16,8 +18,9 @@ public class PlayerMovement : MonoBehaviour
     private float sensitivity = 50f;
     private float sensMultiplier = 1f;
 
-    //Movement
-    public float moveSpeed = 4500;
+
+    [Header("Movement")]
+    public float moveSpeed = 7;
     public float maxSpeed = 20;
     public bool grounded;
     public LayerMask whatIsGround;
@@ -26,20 +29,30 @@ public class PlayerMovement : MonoBehaviour
     private float threshold = 0.01f;
     public float maxSlopeAngle = 35f;
 
-    //Crouch & Slide
+
+    [Header("Crouch & Slide")]
     private Vector3 crouchScale = new Vector3(1, 0.5f, 1);
     private Vector3 playerScale;
     public float slideForce = 400;
     public float slideCounterMovement = 0.2f;
 
-    //Jumping
+
+    [Header("Jumping")]
     private bool readyToJump = true;
     private float jumpCooldown = 0.25f;
     public float jumpForce = 550f;
 
+    [Header("Dashing")]
+    public float dashForce;
+    public float dashUpwardForce;
+    public float dashDuration;
+
+    public float dashCd;
+    public float dashCdTimer;
+
     //Input
     float x, y;
-    bool jumping, sprinting, crouching;
+    bool jumping, crouching, dashing;
 
     //Sliding
     private Vector3 normalVector = Vector3.up;
@@ -68,6 +81,9 @@ public class PlayerMovement : MonoBehaviour
         if (PauseMenu.GameIsPaused) { return; }
         MyInput();
         Look();
+
+        if (dashCdTimer > 0)
+            dashCdTimer -= Time.deltaTime;
     }
 
     private void MyInput()
@@ -76,12 +92,17 @@ public class PlayerMovement : MonoBehaviour
         y = Input.GetAxisRaw("Vertical");
         jumping = Input.GetButton("Jump");
         crouching = Input.GetKey(KeyCode.LeftControl);
+        dashing = Input.GetKey(KeyCode.LeftShift);
 
         //Crouching
         if (Input.GetKeyDown(KeyCode.LeftControl))
             StartCrouch();
         if (Input.GetKeyUp(KeyCode.LeftControl))
             StopCrouch();
+
+        //Dashing
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+            StartCoroutine(Dash());
     }
 
     private void StartCrouch()
@@ -291,6 +312,65 @@ public class PlayerMovement : MonoBehaviour
         grounded = false;
     }
 
+    /*public void Dash()
+    {
+        if (dashCdTimer > 0) return;
+        else dashCdTimer = dashCd;
+
+        dashing = true;
+
+        Vector 3 dashDirection = transform.forward;
 
 
+        Vector3 forceToApply = orientation.forward * dashForce + orientation.up * dashUpwardForce;
+
+        delayedForceToApply = forceToApply;
+        Invoke(nameof(DelayedDashForce), 0.025f);
+        Invoke(nameof(ResetDash), dashDuration);
+    }*/
+
+    private Vector3 delayedForceToApply;
+    private void DelayedDashForce()
+    {
+        if (grounded)
+        {
+            delayedForceToApply *= 25;
+        }
+        rb.AddForce(delayedForceToApply, ForceMode.Impulse);
+    }
+
+    public void ResetDash()
+    {
+        dashing = false;
+    }
+    private bool canDash = true;
+    IEnumerator Dash()
+    {
+        float desiredDashForce = dashForce;
+        // Apply dash force in the direction the player is facing
+        Vector3 dashDirection = orientation.forward; // Example: dash in the direction the player is facing
+        float dashTimer = 0f;
+        canDash = false; // Disable dashing during cooldown
+
+        while (dashTimer < dashDuration)
+        {
+            if (!grounded)
+            {
+                desiredDashForce = dashForce * 0.05f;
+            }
+            else
+            {
+                desiredDashForce = dashForce;
+            }
+
+            // Apply the dash force
+            GetComponent<Rigidbody>().AddForce(dashDirection * desiredDashForce, ForceMode.Impulse);
+            dashTimer += Time.deltaTime;
+            yield return null;
+        }
+
+        // Cooldown before the player can dash again
+        yield return new WaitForSeconds(dashCd);
+        canDash = true; // Enable dashing again
+    }
 }

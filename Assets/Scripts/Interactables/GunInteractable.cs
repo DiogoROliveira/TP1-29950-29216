@@ -5,7 +5,7 @@ using UnityEngine;
 public class GunInteractable : Interactable
 {
     public GameObject gun;
-    public Transform camera;
+    public new Transform camera;
     public Transform playerHand;
 
     private GunRotationDemo gunRotation;
