@@ -3,21 +3,19 @@ using UnityEngine;
 public class Gun : MonoBehaviour
 {
     public float damage = 10f;
-    public float range = 100f;
-    public float fireRate = 200f;
+    public float range, spread, reloadTime;
+    public int magazineSize, bulletsPerShot, bulletsInMagazine;
+
     public Transform fpsCam;
     public ParticleSystem muzzleFlash;
-
-
-    private float nextTimeToFire = 0f;
+    public bool isEquipped = false;
 
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1") && Time.time >= nextTimeToFire)
+        if (isEquipped && Input.GetKeyDown(KeyCode.Mouse0))
         {
-            nextTimeToFire = Time.time + 1f / fireRate;
             Shoot();
         }
     }
@@ -25,18 +23,11 @@ public class Gun : MonoBehaviour
     void Shoot()
     {
 
-        if (fpsCam.GetChild(1) == null)
-        {
-            return;
-        }
-
         muzzleFlash.Play();
 
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
-            Debug.Log(hit.transform.name);
-
             // Obter o componente Target do GameObject atingido
             Target target = hit.transform.GetComponent<Target>();
 
@@ -44,10 +35,12 @@ public class Gun : MonoBehaviour
             if (target != null)
             {
                 target.TakeDamage(damage);
+                Debug.Log("Damage: " + damage);
+                Debug.Log("Health: " + target.health);
+
             }
-
-
-
         }
     }
+
 }
+

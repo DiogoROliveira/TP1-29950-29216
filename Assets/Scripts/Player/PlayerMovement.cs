@@ -111,7 +111,11 @@ public class PlayerMovement : MonoBehaviour
         transform.position = new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z);
         if (rb.velocity.magnitude > 0.5f)
         {
-            if (grounded)
+            if (grounded && dashing)
+            {
+                rb.AddForce(-orientation.transform.forward * slideForce);
+            }
+            else if (grounded)
             {
                 rb.AddForce(orientation.transform.forward * slideForce);
             }
@@ -312,23 +316,6 @@ public class PlayerMovement : MonoBehaviour
         grounded = false;
     }
 
-    /*public void Dash()
-    {
-        if (dashCdTimer > 0) return;
-        else dashCdTimer = dashCd;
-
-        dashing = true;
-
-        Vector 3 dashDirection = transform.forward;
-
-
-        Vector3 forceToApply = orientation.forward * dashForce + orientation.up * dashUpwardForce;
-
-        delayedForceToApply = forceToApply;
-        Invoke(nameof(DelayedDashForce), 0.025f);
-        Invoke(nameof(ResetDash), dashDuration);
-    }*/
-
     private Vector3 delayedForceToApply;
     private void DelayedDashForce()
     {
@@ -354,6 +341,10 @@ public class PlayerMovement : MonoBehaviour
 
         while (dashTimer < dashDuration)
         {
+            if (!grounded && !canDash)
+            {
+                yield return null;
+            }
             if (!grounded)
             {
                 desiredDashForce = dashForce * 0.05f;
