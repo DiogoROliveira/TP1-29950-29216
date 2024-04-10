@@ -4,8 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Shotgun
   - Pistol
+  - Enemy
+  - Melee
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - 
   - Ground
   - Interactable
-  - 
+  - Enemy
   - 
   - 
   - 
