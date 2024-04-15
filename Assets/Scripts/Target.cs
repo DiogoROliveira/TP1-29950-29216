@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.UI;
+
 
 public class Target : MonoBehaviour
 {
@@ -12,7 +12,7 @@ public class Target : MonoBehaviour
         animator = GetComponentInParent<Animator>();
     }
 
-    public void TakeDamage(float amount)
+    public void Damage(float amount)
     {
         health -= amount;
         health = Mathf.Round(health);
@@ -24,7 +24,7 @@ public class Target : MonoBehaviour
         }
         else
         {
-            animator.SetTrigger("damage");
+            animator.SetTrigger("hit");
         }
     }
 

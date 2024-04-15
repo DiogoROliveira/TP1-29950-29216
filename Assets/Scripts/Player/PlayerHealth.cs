@@ -4,9 +4,9 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float health;
+    public float health = 100f;
     public float maxHealth = 100f;
-    public float healthRegenRate = 5f; // Health regeneration per second
+    public float healthRegenRate = 2f; // Health regeneration per second
     public float regenInterval = 3f;   // Time interval between each regeneration tick
     public float chipSpeed = 2f;
 
@@ -17,15 +17,21 @@ public class PlayerHealth : MonoBehaviour
     private Coroutine regenCoroutine;
     private float lerpTimer;
 
+    void Awake()
+    {
+        lerpTimer = 0f;
+        frontHealthBar.fillAmount = 1f;
+        backHealthBar.fillAmount = 1f;
+        health = maxHealth;
+    }
+
     private void Start()
     {
-        health = maxHealth;
         regenCoroutine = StartCoroutine(RegenerateHealth());
     }
 
     private void Update()
     {
-        // Clamping health within valid range
         health = Mathf.Clamp(health, 0f, maxHealth);
         UpdateHealthUI();
     }
@@ -41,7 +47,7 @@ public class PlayerHealth : MonoBehaviour
             backHealthBar.color = Color.red;
             lerpTimer += Time.deltaTime;
             float percentComplete = lerpTimer / chipSpeed;
-            percentComplete = percentComplete * percentComplete;
+            percentComplete *= percentComplete;
             backHealthBar.fillAmount = Mathf.Lerp(fillB, hFraction, percentComplete);
         }
         if (fillF < hFraction)
@@ -50,7 +56,7 @@ public class PlayerHealth : MonoBehaviour
             backHealthBar.fillAmount = hFraction;
             lerpTimer += Time.deltaTime;
             float percentComplete = lerpTimer / chipSpeed;
-            percentComplete = percentComplete * percentComplete;
+            percentComplete *= percentComplete;
             frontHealthBar.fillAmount = Mathf.Lerp(fillF, backHealthBar.fillAmount, percentComplete);
         }
     }
@@ -65,14 +71,14 @@ public class PlayerHealth : MonoBehaviour
     {
         while (true)
         {
-            // Wait for regenInterval seconds before regenerating health
+
             yield return new WaitForSeconds(regenInterval);
 
             // Gradually regenerate health until it reaches maxHealth
             while (health < maxHealth)
             {
                 lerpTimer = 0f;
-                health = Mathf.Min(maxHealth, health + healthRegenRate * Time.deltaTime * 7.5f);
+                health += healthRegenRate * Time.deltaTime * 7.5f;
                 UpdateHealthUI();
                 yield return null;
             }

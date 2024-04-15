@@ -304,7 +304,7 @@ public class Gun : MonoBehaviour
     public CamShake camShake;
     public float camShakeMagnitude, camShakeDuration;
     public TextMeshProUGUI text;
-    
+
     //Audio
     public AudioSource shotgunShootSound;
     public AudioSource shotgunReloadSound;
@@ -401,7 +401,7 @@ public class Gun : MonoBehaviour
         {
             if (hit.collider.CompareTag("Enemy"))
             {
-                hit.transform.GetComponent<Target>().TakeDamage(damage);
+                hit.transform.GetComponent<Target>().Damage(damage);
                 Debug.Log("Damage: " + damage);
                 Debug.Log("Health: " + hit.transform.GetComponent<Target>().health);
             }

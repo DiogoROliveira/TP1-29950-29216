@@ -4,9 +4,12 @@ using UnityEngine.AI;
 public class EnemyController : MonoBehaviour
 {
     public Transform target;
-    private NavMeshAgent agent;
+    public NavMeshAgent agent;
     private Animator animator;
     private readonly float offset = 1.5f;
+    public float attackRange = 2f;
+
+    bool hasAttacked = false;
 
     // Start is called before the first frame update
     void Start()
@@ -18,9 +21,11 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        agent.SetDestination(target.position);
 
-        if (GetComponentInChildren<Target>().health <= 0)
+        if (target.GetComponent<PlayerHealth>().health <= 0 || GetComponentInChildren<Target>().health <= 0)
         {
+            agent.SetDestination(transform.position);
             return;
         }
 
@@ -30,29 +35,39 @@ public class EnemyController : MonoBehaviour
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("getHit"))
         {
             agent.isStopped = true;
-            animator.SetBool("isMoving", false);
+            animator.SetBool("isWalking", false);
             return;
         }
 
-        agent.SetDestination(target.position);
 
         if (agent.remainingDistance <= agent.stoppingDistance + offset)
         {
             agent.isStopped = true;
-            animator.SetBool("isAttacking", true);
+
+            if (IsNearTarget() && !hasAttacked)
+            {
+                hasAttacked = true;
+                animator.SetBool("isAttacking", true);
+                target.GetComponent<PlayerHealth>().TakeDamage(10f);
+            }
         }
+        else
+        {
+            hasAttacked = false;
+        }
+
 
         if (agent.speed > 0.1f)
         {
-            animator.SetBool("isMoving", true);
+            animator.SetBool("isWalking", true);
         }
         else if (agent.speed <= 0.1f)
-            animator.SetBool("isMoving", false);
+            animator.SetBool("isWalking", false);
     }
 
-    public void DamagePlayer()
+
+    bool IsNearTarget()
     {
-        target.GetComponent<PlayerHealth>().TakeDamage(10f);
+        return Vector3.Distance(transform.position, target.position) <= attackRange;
     }
-
 }

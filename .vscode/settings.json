@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "TP1-29950-29216-main.sln"
+    "dotnet.defaultSolution": "TP1-29950-29216-master.sln"
 }
