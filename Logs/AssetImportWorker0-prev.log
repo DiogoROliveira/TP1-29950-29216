@@ -15,7 +15,7 @@ C:/Users/digas/Desktop/Uni/2Âº Ano/S2/TM/TP1-29950-29216-master
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64970
+51361
 Successfully changed project path to: C:/Users/digas/Desktop/Uni/2Âº Ano/S2/TM/TP1-29950-29216-master
 C:/Users/digas/Desktop/Uni/2Âº Ano/S2/TM/TP1-29950-29216-master
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/digas/Desktop/Uni/2Âº Ano/S2/TM/TP1-29950-29216-master
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16572] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 938132396 [EditorId] 938132396 [Version] 1048832 [Id] WindowsEditor(7,PC_DIOGO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8664] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3026318734 [EditorId] 3026318734 [Version] 1048832 [Id] WindowsEditor(7,PC_DIOGO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16572] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 938132396 [EditorId] 938132396 [Version] 1048832 [Id] WindowsEditor(7,PC_DIOGO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8664] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3026318734 [EditorId] 3026318734 [Version] 1048832 [Id] WindowsEditor(7,PC_DIOGO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 13.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 13.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016884 seconds.
-- Loaded All Assemblies, in  0.555 seconds
+Registered in 0.016350 seconds.
+- Loaded All Assemblies, in  0.585 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.354 seconds
-Domain Reload Profiling: 907ms
-	BeginReloadAssembly (189ms)
+- Finished resetting the current domain, in  0.384 seconds
+Domain Reload Profiling: 966ms
+	BeginReloadAssembly (172ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (96ms)
-	LoadAllAssembliesAndSetupDomain (216ms)
-		LoadAssemblies (184ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (169ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (214ms)
-			TypeCache.Refresh (212ms)
-				TypeCache.ScanAssembly (194ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (239ms)
+				TypeCache.ScanAssembly (217ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (355ms)
+	FinalizeReload (385ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (283ms)
+		SetupLoadedEditorAssemblies (307ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
+			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (195ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
+			ProcessInitializeOnLoadAttributes (198ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 907ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.034 seconds
-Refreshing native plugins compatible for Editor in 6.52 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.681 seconds
+Refreshing native plugins compatible for Editor in 8.01 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.883 seconds
-Domain Reload Profiling: 1911ms
-	BeginReloadAssembly (223ms)
+- Finished resetting the current domain, in  2.098 seconds
+Domain Reload Profiling: 3774ms
+	BeginReloadAssembly (503ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (696ms)
-		LoadAssemblies (570ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (87ms)
+	LoadAllAssembliesAndSetupDomain (987ms)
+		LoadAssemblies (1004ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (255ms)
-			TypeCache.Refresh (224ms)
-				TypeCache.ScanAssembly (206ms)
-			ScanForSourceGeneratedMonoScriptInfo (21ms)
+		AnalyzeDomain (341ms)
+			TypeCache.Refresh (298ms)
+				TypeCache.ScanAssembly (269ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (883ms)
+	FinalizeReload (2099ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (647ms)
+		SetupLoadedEditorAssemblies (1758ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (496ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (1423ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (26ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (18ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 5.07 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (35ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 8.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3713 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (1.8 MB). Loaded Objects now: 4166.
-Memory consumption went from 233.0 MB to 231.2 MB.
-Total: 4.802200 ms (FindLiveObjects: 0.449900 ms CreateObjectMapping: 0.201600 ms MarkObjects: 3.513800 ms  DeleteObjects: 0.635300 ms)
+Unloading 3716 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (1.8 MB). Loaded Objects now: 4170.
+Memory consumption went from 232.9 MB to 231.1 MB.
+Total: 5.288000 ms (FindLiveObjects: 0.566300 ms CreateObjectMapping: 0.353000 ms MarkObjects: 3.552100 ms  DeleteObjects: 0.814700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,58 +182,105 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/MapLoader.cs: 34f658799c328b25e9f23f196c3da1d8 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2403.908550 seconds.
+  path: Assets/Scripts/Menu/VictoryMenu.cs
+  artifactKey: Guid(0d99382e01b43364f8e5a5a1ca53de32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Menu/VictoryMenu.cs using Guid(0d99382e01b43364f8e5a5a1ca53de32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3395ec4307a17e6b5d7bca24720d7ed5') in 0.005781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 94.275956 seconds.
+  path: Assets/Scenes/Map1.unity
+  artifactKey: Guid(b6f9980618375954aa3e6ce8a1de554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map1.unity using Guid(b6f9980618375954aa3e6ce8a1de554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd32cce2589f65daf93b3fdb51005ef') in 0.001730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.650925 seconds.
+  path: Assets/Scenes/Map2.unity
+  artifactKey: Guid(b6f9980618375954aa3e6ce8a1de554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map2.unity using Guid(b6f9980618375954aa3e6ce8a1de554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e18b922f45d662b918645d7c5804af0') in 0.001282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.332654 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be7142843a71a26495f9fb68e463a7c') in 0.000829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.999120 seconds.
+  path: Assets/Scenes/Game/NavMesh-NavMesh 1.asset
+  artifactKey: Guid(f652beb041f8f9e4892d49b214fb87aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/NavMesh-NavMesh 1.asset using Guid(f652beb041f8f9e4892d49b214fb87aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3d07b9f0685fb2e9b7b2311e872e2e') in 0.011560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.174640 seconds.
+  path: Assets/Scenes/Map1.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3601e750a17d79d93125295a24161d1b') in 0.000976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.665 seconds
-Refreshing native plugins compatible for Editor in 6.29 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.728 seconds
+Refreshing native plugins compatible for Editor in 5.64 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.500 seconds
-Domain Reload Profiling: 2158ms
-	BeginReloadAssembly (228ms)
+- Finished resetting the current domain, in  1.612 seconds
+Domain Reload Profiling: 2331ms
+	BeginReloadAssembly (197ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (42ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (45ms)
 	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (329ms)
-		LoadAssemblies (436ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (485ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (18ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1501ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1613ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (611ms)
+		SetupLoadedEditorAssemblies (623ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (102ms)
-			ProcessInitializeOnLoadAttributes (442ms)
-			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (461ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (15ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 4.62 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 5.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3647 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (1.8 MB). Loaded Objects now: 4169.
-Memory consumption went from 219.4 MB to 217.5 MB.
-Total: 4.616100 ms (FindLiveObjects: 0.975600 ms CreateObjectMapping: 0.212800 ms MarkObjects: 2.952000 ms  DeleteObjects: 0.473800 ms)
+Unloading 3649 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.8 MB). Loaded Objects now: 4174.
+Memory consumption went from 219.0 MB to 217.2 MB.
+Total: 4.024400 ms (FindLiveObjects: 0.640400 ms CreateObjectMapping: 0.158000 ms MarkObjects: 2.758800 ms  DeleteObjects: 0.465300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -250,337 +297,338 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/MapLoader.cs: 34f658799c328b25e9f23f196c3da1d8 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 28187.160311 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant
-  artifactKey: Guid(6c3cdeb42f8389f41bc716020d26b443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant using Guid(6c3cdeb42f8389f41bc716020d26b443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '107b5de54ff4a4307496bb54e07338bc') in 0.002689 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.760 seconds
+Refreshing native plugins compatible for Editor in 7.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.593 seconds
+Domain Reload Profiling: 2346ms
+	BeginReloadAssembly (255ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (400ms)
+		LoadAssemblies (494ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (37ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1593ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (645ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (457ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 8.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3650 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.8 MB). Loaded Objects now: 4177.
+Memory consumption went from 221.2 MB to 219.4 MB.
+Total: 8.060000 ms (FindLiveObjects: 1.015800 ms CreateObjectMapping: 0.490500 ms MarkObjects: 5.902300 ms  DeleteObjects: 0.648600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.064569 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/BIGDOOR2.PNG
-  artifactKey: Guid(735094314be15d44593f63d920304d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/BIGDOOR2.PNG using Guid(735094314be15d44593f63d920304d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac2b5974cefee4895003d152585ed30') in 0.141158 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.699 seconds
+Refreshing native plugins compatible for Editor in 5.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.875 seconds
+Domain Reload Profiling: 2568ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (367ms)
+		LoadAssemblies (462ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1876ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (737ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (551ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 6.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3650 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.8 MB). Loaded Objects now: 4180.
+Memory consumption went from 223.1 MB to 221.3 MB.
+Total: 10.473500 ms (FindLiveObjects: 1.128700 ms CreateObjectMapping: 1.185400 ms MarkObjects: 6.435200 ms  DeleteObjects: 1.721500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/COMPTALL.PNG
-  artifactKey: Guid(9e79266b67d2cc34f99406c1f0d74c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/COMPTALL.PNG using Guid(9e79266b67d2cc34f99406c1f0d74c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0ae3ba23a3d5e68e07736ab4e08240') in 0.039150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.829 seconds
+Refreshing native plugins compatible for Editor in 6.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.310 seconds
+Domain Reload Profiling: 3134ms
+	BeginReloadAssembly (265ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (576ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2311ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (916ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (695ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 10.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3650 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.8 MB). Loaded Objects now: 4183.
+Memory consumption went from 225.1 MB to 223.3 MB.
+Total: 6.915000 ms (FindLiveObjects: 0.824900 ms CreateObjectMapping: 0.422900 ms MarkObjects: 4.225300 ms  DeleteObjects: 1.436400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/LITE3.PNG
-  artifactKey: Guid(79b483cdfb2d99847b635873449f903c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/LITE3.PNG using Guid(79b483cdfb2d99847b635873449f903c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8924dbc2d71c76dedc5519155aafaf28') in 0.032143 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.752 seconds
+Refreshing native plugins compatible for Editor in 7.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.546 seconds
+Domain Reload Profiling: 2287ms
+	BeginReloadAssembly (238ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (390ms)
+		LoadAssemblies (477ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1547ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (584ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (425ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 6.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3650 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.8 MB). Loaded Objects now: 4186.
+Memory consumption went from 227.0 MB to 225.2 MB.
+Total: 5.512700 ms (FindLiveObjects: 0.481900 ms CreateObjectMapping: 0.270700 ms MarkObjects: 4.039500 ms  DeleteObjects: 0.717600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/EXITSIGN.PNG
-  artifactKey: Guid(ff98ec31a6e3eb04884e1a273f81dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/EXITSIGN.PNG using Guid(ff98ec31a6e3eb04884e1a273f81dff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec873f16bcbe6b63edae78890da6267a') in 0.031761 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/BROWN96.PNG
-  artifactKey: Guid(e3f54f980b506cd4582c997689098527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/BROWN96.PNG using Guid(e3f54f980b506cd4582c997689098527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf59398eef647c2a097780e1636d9f90') in 0.029906 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/METAL1.PNG
-  artifactKey: Guid(2c5cc6fabd6e26f41b524adf5cd4c7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/METAL1.PNG using Guid(2c5cc6fabd6e26f41b524adf5cd4c7fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2206a3632f85f88bd8e60884ae39fc3d') in 0.026302 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/STEP1.PNG
-  artifactKey: Guid(3858c5f5124737743a7c51eaae40d6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/STEP1.PNG using Guid(3858c5f5124737743a7c51eaae40d6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153ff7ab05a71496eb3b74119d165922') in 0.028235 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLAT14.PNG
-  artifactKey: Guid(99ad59f55ddef1f4d92105230eb8c762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLAT14.PNG using Guid(99ad59f55ddef1f4d92105230eb8c762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2c46f927c10cac0cbaf130c567451a') in 0.029345 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/SLADRIP2.PNG
-  artifactKey: Guid(09b3b2099c1457447aa14abf3a13b18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/SLADRIP2.PNG using Guid(09b3b2099c1457447aa14abf3a13b18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7261185dded3caa4466c73f8d8bbaa1f') in 0.027872 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLOOR0_3.PNG
-  artifactKey: Guid(05fd19f161bd2f741910bc748c4de4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLOOR0_3.PNG using Guid(05fd19f161bd2f741910bc748c4de4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2fe045089c8dee98c2fe80651de863b') in 0.026959 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/CONS1_7.PNG
-  artifactKey: Guid(50b1b213ee48d4f4c80c6c7d08803c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/CONS1_7.PNG using Guid(50b1b213ee48d4f4c80c6c7d08803c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c1dfb8f4cc46b70ca27af11f91e2f2') in 0.031301 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLAT23.PNG
-  artifactKey: Guid(5d491282d289fab4d8a1fe6bb642a97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLAT23.PNG using Guid(5d491282d289fab4d8a1fe6bb642a97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ea4242110aa48cbc31847e174c1920') in 0.029952 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/STARTAN2.PNG
-  artifactKey: Guid(b1affce1c460d8942bec7152ad3c80b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/STARTAN2.PNG using Guid(b1affce1c460d8942bec7152ad3c80b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5782b491ea03d2394b17af3201b99e') in 0.028378 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLOOR7_1.PNG
-  artifactKey: Guid(cca3a34783da4764094f3089597537d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLOOR7_1.PNG using Guid(cca3a34783da4764094f3089597537d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565416b715a31f0b69aff5779692df6e') in 0.027960 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/STEP1_FLAT.PNG
-  artifactKey: Guid(6ef9e9b07977f0b4f8fb306909d6a412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/STEP1_FLAT.PNG using Guid(6ef9e9b07977f0b4f8fb306909d6a412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d3be21d494891798dd5e41759ae102') in 0.030576 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/COMPSTA2.PNG
-  artifactKey: Guid(3e4c7d8d255fb0f4dab14e6becd6d5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/COMPSTA2.PNG using Guid(3e4c7d8d255fb0f4dab14e6becd6d5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fcecc438682350b3782dd76341728ad') in 0.036898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/STEP6.PNG
-  artifactKey: Guid(52b04140f8b96c94a973221cd20c0f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/STEP6.PNG using Guid(52b04140f8b96c94a973221cd20c0f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86ee1fafe3d6081d9447408594c63405') in 0.028438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/DOOR3.PNG
-  artifactKey: Guid(c65f3c016528fd44b87d1ec1544a43ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/DOOR3.PNG using Guid(c65f3c016528fd44b87d1ec1544a43ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb51ea9147564fb2223022e8af46a71') in 0.032874 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/CONS1_5.PNG
-  artifactKey: Guid(e741533cb00de494bb9ca1b3e8961634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/CONS1_5.PNG using Guid(e741533cb00de494bb9ca1b3e8961634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3956a88b2174673db7e44c5ba97b7054') in 0.030249 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLOOR5_1.PNG
-  artifactKey: Guid(b370799ec83ed0e4999e7400ef809366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLOOR5_1.PNG using Guid(b370799ec83ed0e4999e7400ef809366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec55159209a71e34f4d804a927a033b') in 0.028452 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLOOR4_5.PNG
-  artifactKey: Guid(c10045080e327364e8d2e55f00d2082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLOOR4_5.PNG using Guid(c10045080e327364e8d2e55f00d2082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '223f0677a897d643f04a90867de1b208') in 0.030117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/COMPUTE1.PNG
-  artifactKey: Guid(60ccc47876c251f4fbd606ff66b27497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/COMPUTE1.PNG using Guid(60ccc47876c251f4fbd606ff66b27497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732792a1476349f4ab770675ecd50776') in 0.030901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/STARTAN3.PNG
-  artifactKey: Guid(28265e24bbe5c9f4cb5463502ec5f1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/STARTAN3.PNG using Guid(28265e24bbe5c9f4cb5463502ec5f1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c02b1fc9ad36dcd54c3ffef03f7711e') in 0.035976 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/CEIL5_1.PNG
-  artifactKey: Guid(3f48397e4b8598e4782e45dec82c82b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/CEIL5_1.PNG using Guid(3f48397e4b8598e4782e45dec82c82b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8981a5abe42224f58ae64792bf0bfa27') in 0.035840 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/STEP5.PNG
-  artifactKey: Guid(f2a567420f3461748b2776da29a32c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/STEP5.PNG using Guid(f2a567420f3461748b2776da29a32c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf006fa27012e2144423103f298d439') in 0.029779 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/BROWNHUG.PNG
-  artifactKey: Guid(e7b6feef3b054364a88b0a35a470a74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/BROWNHUG.PNG using Guid(e7b6feef3b054364a88b0a35a470a74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b0362187a689d46f55570fe6f371441') in 0.032423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/DOOR1.PNG
-  artifactKey: Guid(85ba79123db52ce4bb4bf84cb8f9df6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/DOOR1.PNG using Guid(85ba79123db52ce4bb4bf84cb8f9df6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3931c562ba1d446fb696e0ca5fe59cd3') in 0.060508 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLAT22.PNG
-  artifactKey: Guid(d80c0740e2ebd834da78e39a4ebeefc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLAT22.PNG using Guid(d80c0740e2ebd834da78e39a4ebeefc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaca995a4b4cb1103fd42852c7d7f3dd') in 0.031666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/LITE4.PNG
-  artifactKey: Guid(d792f28e480c26644b93809169b5014d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/LITE4.PNG using Guid(d792f28e480c26644b93809169b5014d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c9e1f1b5e7628f8047d5c3e8ccae84') in 0.031230 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/GRAYTALL.PNG
-  artifactKey: Guid(6904c8278ccb0f54b8b83ace6b63009f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/GRAYTALL.PNG using Guid(6904c8278ccb0f54b8b83ace6b63009f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ace3c805f38498301b7c7a402eb639') in 0.031758 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLOOR1_1.PNG
-  artifactKey: Guid(6cbdd35997d433149b26cb947c85220c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLOOR1_1.PNG using Guid(6cbdd35997d433149b26cb947c85220c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ca657b17ccc66550d018011593fa6c') in 0.027529 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/EXITDOOR.PNG
-  artifactKey: Guid(fa1ccf0f746fdb74d8763e20d2a5e245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/EXITDOOR.PNG using Guid(fa1ccf0f746fdb74d8763e20d2a5e245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8cec8aaa6edf0300fed5a0e587bee6') in 0.032820 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/BROWNGRN.PNG
-  artifactKey: Guid(5112047c7f359c6489a404973661e519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/BROWNGRN.PNG using Guid(5112047c7f359c6489a404973661e519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1de626438252c15747b771f17c4c37') in 0.028588 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/STARG3.PNG
-  artifactKey: Guid(3279479b79c15604a8ee81dcee867bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/STARG3.PNG using Guid(3279479b79c15604a8ee81dcee867bb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f321800b4e3cbeb494d81a07321d1380') in 0.036833 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/F_SKY1.PNG
-  artifactKey: Guid(c7ca548be34221d4c8efa99a1ad4951a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/F_SKY1.PNG using Guid(c7ca548be34221d4c8efa99a1ad4951a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806339975f10f98372e372e3f9095573') in 0.035717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLOOR3_3.PNG
-  artifactKey: Guid(27275d65077a5be439768da32ef95179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/FLOOR3_3.PNG using Guid(27275d65077a5be439768da32ef95179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf9614fc920270549421e9abf473968') in 0.029385 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 31.060629 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/SUPPORT2.PNG
-  artifactKey: Guid(3bb330efcb667e94483f8d2b16590ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/SUPPORT2.PNG using Guid(3bb330efcb667e94483f8d2b16590ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23afe1102db919a9d47c1699fa18b3eb') in 0.038631 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/TEKWALL2.PNG
-  artifactKey: Guid(cdc97398c5dc0524fa44f6d26965e370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/TEKWALL2.PNG using Guid(cdc97398c5dc0524fa44f6d26965e370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57576fec9191ec7f5d6df1a354dc04d') in 0.036265 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/TEKWALL4.PNG
-  artifactKey: Guid(2200d0e54c91bf34a859f622cc04dd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/TEKWALL4.PNG using Guid(2200d0e54c91bf34a859f622cc04dd9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad7a520c5d066f5b1541101f56de0e7') in 0.041134 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/TLITE6_1.PNG
-  artifactKey: Guid(33b72a86be996c54ab2c90b0e06793c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Maps/PC Computer - DOOM - E1M2 Nuclear Plant/TLITE6_1.PNG using Guid(33b72a86be996c54ab2c90b0e06793c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3a0c7b1cbc1f300ac8f6284229212f') in 0.035230 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi cancelada devido a uma saída do módulo ou a um pedido da aplicação.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.732 seconds
+Refreshing native plugins compatible for Editor in 5.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.865 seconds
+Domain Reload Profiling: 2591ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (363ms)
+		LoadAssemblies (480ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1867ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (710ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (514ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 5.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3650 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.8 MB). Loaded Objects now: 4189.
+Memory consumption went from 228.9 MB to 227.1 MB.
+Total: 9.163300 ms (FindLiveObjects: 1.356400 ms CreateObjectMapping: 0.389800 ms MarkObjects: 5.827800 ms  DeleteObjects: 1.585400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

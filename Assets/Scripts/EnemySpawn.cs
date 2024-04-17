@@ -6,7 +6,9 @@ public class EnemySpawn : MonoBehaviour
 {
     public GameObject enemy;
     public Transform enemyPos;
-    private float repeatRate = 2.0f;
+    public float repeatRate = 2.0f;
+    public int timeForSpawn;
+    public float spawnRate;
     public Transform player;
     private Vector3 offset;
 
@@ -20,8 +22,8 @@ public class EnemySpawn : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            InvokeRepeating("EnemySpawner", 0.5f, repeatRate);
-            Destroy(gameObject, 30);
+            InvokeRepeating("EnemySpawner", spawnRate, repeatRate);
+            Destroy(gameObject, timeForSpawn);
             gameObject.GetComponent<BoxCollider>().enabled = false;
         }
     }

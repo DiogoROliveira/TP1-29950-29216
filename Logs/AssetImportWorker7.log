@@ -1,0 +1,384 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'pt' Physical Memory: 15731 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/digas/Desktop/Uni/2Âº Ano/S2/TM/TP1-29950-29216-master
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+50298
+Successfully changed project path to: C:/Users/digas/Desktop/Uni/2Âº Ano/S2/TM/TP1-29950-29216-master
+C:/Users/digas/Desktop/Uni/2Âº Ano/S2/TM/TP1-29950-29216-master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1780] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3381703203 [EditorId] 3381703203 [Version] 1048832 [Id] WindowsEditor(7,PC_DIOGO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1780] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3381703203 [EditorId] 3381703203 [Version] 1048832 [Id] WindowsEditor(7,PC_DIOGO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 18.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/digas/Desktop/Uni/2Âº Ano/S2/TM/TP1-29950-29216-master/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5955 MB
+    Driver:   31.0.15.5212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016130 seconds.
+- Loaded All Assemblies, in  0.559 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.319 seconds
+Domain Reload Profiling: 876ms
+	BeginReloadAssembly (230ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (178ms)
+		LoadAssemblies (225ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (155ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (320ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (249ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.910 seconds
+Refreshing native plugins compatible for Editor in 6.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.788 seconds
+Domain Reload Profiling: 1690ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (597ms)
+		LoadAssemblies (459ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (199ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (789ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (567ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3716 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 107 unused Assets / (5.9 MB). Loaded Objects now: 4110.
+Memory consumption went from 159.9 MB to 154.0 MB.
+Total: 5.811300 ms (FindLiveObjects: 0.381100 ms CreateObjectMapping: 0.140200 ms MarkObjects: 3.251600 ms  DeleteObjects: 2.035600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.692 seconds
+Refreshing native plugins compatible for Editor in 7.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.754 seconds
+Domain Reload Profiling: 2440ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (453ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1755ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (684ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (509ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 8.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (5.9 MB). Loaded Objects now: 4113.
+Memory consumption went from 159.4 MB to 153.6 MB.
+Total: 7.545800 ms (FindLiveObjects: 0.455700 ms CreateObjectMapping: 0.233200 ms MarkObjects: 3.980300 ms  DeleteObjects: 2.873900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2838.607127 seconds.
+  path: Assets/Maps/Quake - E1M1 The Slipgate Complex/tech04_2.png
+  artifactKey: Guid(6ab04d68e540290488447f8ab0bc4e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Quake - E1M1 The Slipgate Complex/tech04_2.png using Guid(6ab04d68e540290488447f8ab0bc4e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7b167e5f5733f0c076910b2ae75233') in 0.169287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000663 seconds.
+  path: Assets/Maps/Quake - E1M1 The Slipgate Complex/twall5_3.png
+  artifactKey: Guid(7299b77c72ba868449fb095db8b18334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Quake - E1M1 The Slipgate Complex/twall5_3.png using Guid(7299b77c72ba868449fb095db8b18334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82594d7032f1f83ad2ccb69446375e13') in 0.032698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Maps/Quake - E1M1 The Slipgate Complex/tech04_3.png
+  artifactKey: Guid(839ade5847125d3459c8ee6ab5d33f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Quake - E1M1 The Slipgate Complex/tech04_3.png using Guid(839ade5847125d3459c8ee6ab5d33f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d672103180f5ec3e5572111b91ccdb') in 0.041394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Maps/Quake - E1M1 The Slipgate Complex/tech10_1.png
+  artifactKey: Guid(dbed857797881184e89c3e9f67ed75b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Quake - E1M1 The Slipgate Complex/tech10_1.png using Guid(dbed857797881184e89c3e9f67ed75b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50285a264090ec30423c9b24a5d0f5be') in 0.037000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Maps/Quake - E1M1 The Slipgate Complex/twall2_1.png
+  artifactKey: Guid(c69e82f64accb064eb47183d35a1a3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Quake - E1M1 The Slipgate Complex/twall2_1.png using Guid(c69e82f64accb064eb47183d35a1a3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ff6619c1b8848ac8ecbeca397c53cc') in 0.032495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Maps/Quake - E1M1 The Slipgate Complex/twall1_1.png
+  artifactKey: Guid(e530d946bb9cbd844a253bde1834e8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Quake - E1M1 The Slipgate Complex/twall1_1.png using Guid(e530d946bb9cbd844a253bde1834e8bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3424e5b425a46267d0e58767d4b6c46b') in 0.028462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Maps/Quake - E1M1 The Slipgate Complex/twall2_6.png
+  artifactKey: Guid(1fdda77fb27fd5747b808d40485fa0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Quake - E1M1 The Slipgate Complex/twall2_6.png using Guid(1fdda77fb27fd5747b808d40485fa0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f207762c9ffab3c2dd8ea69c725a60') in 0.029177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Maps/Quake - E1M1 The Slipgate Complex/twall5_1.png
+  artifactKey: Guid(e94c71ad6f0bdda4d98c98bf955226da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Quake - E1M1 The Slipgate Complex/twall5_1.png using Guid(e94c71ad6f0bdda4d98c98bf955226da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b746b527dc7415354cbaa90a216f1d3b') in 0.034100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Maps/Quake - E1M1 The Slipgate Complex/tlight01_emission.png
+  artifactKey: Guid(4a31d7c476b3ee44dbb8872ee7026e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Quake - E1M1 The Slipgate Complex/tlight01_emission.png using Guid(4a31d7c476b3ee44dbb8872ee7026e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa30cd0a98b0cb72b0078d56016dd15') in 0.028866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Maps/Quake - E1M1 The Slipgate Complex/tlight01.png
+  artifactKey: Guid(e0f3fe86616372d4f94ffe4605f7673e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Quake - E1M1 The Slipgate Complex/tlight01.png using Guid(e0f3fe86616372d4f94ffe4605f7673e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569197f032b3154571e702f443209b07') in 0.032450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Maps/Quake - E1M1 The Slipgate Complex/tlight11_emission.png
+  artifactKey: Guid(56eba7b376c452e448cf3e90ecf1024f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Quake - E1M1 The Slipgate Complex/tlight11_emission.png using Guid(56eba7b376c452e448cf3e90ecf1024f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52601cfc9878b5a79da85aa235241f27') in 0.030775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Maps/Quake - E1M1 The Slipgate Complex/z_exit.png
+  artifactKey: Guid(c797ccfa47acde248b399a72abb7f7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Quake - E1M1 The Slipgate Complex/z_exit.png using Guid(c797ccfa47acde248b399a72abb7f7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a879940ba1d566c786c7718b742ac1') in 0.028758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Maps/Quake - E1M1 The Slipgate Complex/twall2_3.png
+  artifactKey: Guid(a734ea4eaa841a740bca4b3dac8dcbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Quake - E1M1 The Slipgate Complex/twall2_3.png using Guid(a734ea4eaa841a740bca4b3dac8dcbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190c802426a75ed8ffa0d3c7c466c9be') in 0.030121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Maps/Quake - E1M1 The Slipgate Complex/tech08_1.png
+  artifactKey: Guid(63b95b3f29f5a094e9fe8dffa4e5d902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Quake - E1M1 The Slipgate Complex/tech08_1.png using Guid(63b95b3f29f5a094e9fe8dffa4e5d902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1b42def59fa23e10d078bba991b180') in 0.032706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Maps/Quake - E1M1 The Slipgate Complex/z_exit_emission.png
+  artifactKey: Guid(4d054fb4b5f795b4e9db09c307200723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Quake - E1M1 The Slipgate Complex/z_exit_emission.png using Guid(4d054fb4b5f795b4e9db09c307200723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7a698e4fc3a7e0511163eff4f82e5a') in 0.023179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Maps/Quake - E1M1 The Slipgate Complex/trigger.png
+  artifactKey: Guid(70ec7cbec2d0320459a7f3fbf8a0963a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Quake - E1M1 The Slipgate Complex/trigger.png using Guid(70ec7cbec2d0320459a7f3fbf8a0963a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d4f1139b2736904cebe9040d6097ef') in 0.030222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi cancelada devido a uma saída do módulo ou a um pedido da aplicação.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
