@@ -52,20 +52,26 @@ public class Boss : MonoBehaviour
             return;
         }
 
-        if (agent.remainingDistance <= agent.stoppingDistance)
+        if (!hasAttacked)
         {
-            agent.isStopped = true;
-            if (!hasAttacked)
+
+            int atkIndex = Random.Range(0, 2);
+            switch (atkIndex)
             {
-                if (IsNearPlayer(meleeAttackRange))
-                {
+                case 0:
+                    if (!IsNearPlayer(meleeAttackRange))
+                        break;
+                    agent.isStopped = true;
                     hasAttacked = true;
                     animator.SetBool("isAttackingM", true);
                     isAttacking = true;
                     player.TakeDamage(25f);
-                }
-                else if (IsInSummonRange())
-                {
+                    Invoke(nameof(ResetAttack), 3f);
+                    break;
+                case 1:
+                    if (!IsInSummonRange())
+                        break;
+                    agent.isStopped = true;
                     hasAttacked = true;
                     animator.SetBool("isAttackingS", true);
                     isAttacking = true;
@@ -76,15 +82,18 @@ public class Boss : MonoBehaviour
                         randomOffset.y = 0f;
                         Vector3 spawnPosition = transform.position + randomOffset;
                         GameObject skeleton = Instantiate(skeletonPrefab, spawnPosition, Quaternion.identity);
-                        skeleton.GetComponent<NavMeshAgent>().SetDestination(target.position);
+                        skeleton.GetComponent<EnemyController>().target = target;
                     }
-                }
+                    Invoke(nameof(ResetAttack), 3f);
+                    break;
             }
+
         }
         else
         {
             hasAttacked = false;
         }
+
     }
 
 
@@ -98,5 +107,10 @@ public class Boss : MonoBehaviour
     {
         float distanceToPlayer = Vector3.Distance(transform.position, target.position);
         return distanceToPlayer >= summonAttackMinRange && distanceToPlayer <= summonAttackMaxRange;
+    }
+
+    void ResetAttack()
+    {
+        isAttacking = false;
     }
 }
