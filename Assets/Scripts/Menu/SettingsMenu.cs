@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Audio;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -13,6 +12,7 @@ public class SettingsMenu : MonoBehaviour
     public AudioMixer audioMixer;
     public TMP_Dropdown resDropdown;
     public Slider volumeSlider;
+    public GameObject settingsMenu;
 
     Resolution[] resolutions;
 
@@ -77,5 +77,9 @@ public class SettingsMenu : MonoBehaviour
         Screen.fullScreen = isFullscreen;
     }
 
+    public void Back()
+    {
+        settingsMenu.SetActive(false);
+    }
 
 }

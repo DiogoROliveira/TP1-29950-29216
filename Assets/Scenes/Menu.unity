@@ -952,7 +952,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 467264232}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1425369203}
+        m_TargetAssemblyTypeName: PlayMenu, Assembly-CSharp
+        m_MethodName: LoadMap2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &467264232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2415,7 +2427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -2445,7 +2457,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1010405491}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1425369203}
+        m_TargetAssemblyTypeName: PlayMenu, Assembly-CSharp
+        m_MethodName: LoadMap3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1010405491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3035,7 +3059,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1235212773
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4080,6 +4104,7 @@ MonoBehaviour:
   audioMixer: {fileID: 24100000, guid: 40cfceebc2885ce449ab5e95b64f3926, type: 2}
   resDropdown: {fileID: 724430099}
   volumeSlider: {fileID: 1039829392}
+  settingsMenu: {fileID: 0}
 --- !u!114 &1425369203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4228,7 +4253,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: HYPERSTRIKE
+  m_text: HAVOC ARENA
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0945cdbe102a5474c95ed66e6d61a84e, type: 2}
   m_sharedMaterial: {fileID: 6082466844246864840, guid: 0945cdbe102a5474c95ed66e6d61a84e, type: 2}

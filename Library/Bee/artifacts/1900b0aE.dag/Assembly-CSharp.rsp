@@ -369,6 +369,7 @@
 "Assets/Animations/RecoilAllWeapons.cs"
 "Assets/Animations/ShotgunAnim/RecoilScript.cs"
 "Assets/Animations/ShotgunAnim/ReloadScript.cs"
+"Assets/Scripts/BlockArena.cs"
 "Assets/Scripts/Boss.cs"
 "Assets/Scripts/CamShake.cs"
 "Assets/Scripts/DoorTrigger.cs"

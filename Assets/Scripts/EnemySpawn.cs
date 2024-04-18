@@ -30,7 +30,16 @@ public class EnemySpawn : MonoBehaviour
 
     void EnemySpawner()
     {
+        if (enemy.GetComponent<Boss>() != null)
+        {
+            offset = Vector3.zero;
+        }
         GameObject skeleton = Instantiate(enemy, enemyPos.position + offset, enemyPos.rotation);
+        if (skeleton.GetComponent<Boss>() != null)
+        {
+            skeleton.GetComponent<Boss>().target = player;
+        }
+
         skeleton.GetComponent<EnemyController>().target = player;
     }
 

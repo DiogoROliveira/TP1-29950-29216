@@ -13,6 +13,7 @@ public class PauseMenu : MonoBehaviour
 
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (GameIsPaused)
@@ -36,6 +37,7 @@ public class PauseMenu : MonoBehaviour
         crosshair.SetActive(true);
 
         // Resumir a reprodução do som da arma
+        gun.GetComponentInParent<GunSwitching>().enabled = true;
         gun.ResumeSound();
     }
 
@@ -49,6 +51,7 @@ public class PauseMenu : MonoBehaviour
         crosshair.SetActive(false);
 
         // Pausar a reprodução do som da arma
+        gun.GetComponentInParent<GunSwitching>().enabled = false;
         gun.PauseSound();
     }
 

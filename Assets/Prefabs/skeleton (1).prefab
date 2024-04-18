@@ -717,7 +717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6849a799851de9545bcc3c7abe4177ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  health: 65
 --- !u!1 &2900864425606519539
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,7 +1000,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.1507072, y: 0.033820152, z: 15.856287}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.9, y: 2.1, z: 1.9}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3227063258054672416}
@@ -1063,6 +1063,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
+  agent: {fileID: 0}
   attackRange: 2
 --- !u!1 &4496142165031800461
 GameObject:

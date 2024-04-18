@@ -80,6 +80,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (PauseMenu.GameIsPaused) { return; }
         if (GameOverMenu.gameOverShowing) { return; }
+        if (VictoryMenu.victoryMenuIsShowing) { return; }
         MyInput();
         Look();
 
@@ -365,4 +366,40 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(dashCd);
         canDash = true; // Enable dashing again
     }
+
+    public AudioClip[] stepSounds; // Sons de passos
+    public AudioSource audioSource; // AudioSource para reprodução dos sons
+    public float stepInterval = 0.5f; // Intervalo entre cada som de passo
+    private float stepTimer = 0f; // Temporizador para controlar o intervalo entre passos
+
+    private void PlayFootsteps()
+    {
+        // Verifica se o jogador está se movendo
+        if (Mathf.Abs(x) > 0 || Mathf.Abs(y) > 0)
+        {
+            // Atualiza o temporizador
+            stepTimer += Time.deltaTime;
+
+            // Se o temporizador atingir o intervalo desejado, reproduz um som de passo
+            if (stepTimer >= stepInterval)
+            {
+                // Escolhe um som de passo aleatório do array de sons
+                AudioClip stepSound = stepSounds[UnityEngine.Random.Range(0, stepSounds.Length)];
+
+                // Reproduz o som de passo
+                audioSource.PlayOneShot(stepSound);
+
+                // Reinicia o temporizador
+                stepTimer = 0f;
+            }
+        }
+        else
+        {
+            // Se o jogador não estiver se movendo, reinicia o temporizador
+            stepTimer = 0f;
+        }
+    }
+
+
+
 }
