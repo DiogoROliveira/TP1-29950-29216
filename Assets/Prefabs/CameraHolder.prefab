@@ -5414,8 +5414,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d176fe8d67aed442973da1a15046232, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 40
-  range: 50
+  damage: 50
+  range: 75
   spread: 0.1
   reloadTime: 4
   timeBetweenShots: 0
@@ -15670,7 +15670,7 @@ MonoBehaviour:
   spread: 0
   reloadTime: 1.2
   timeBetweenShots: 0
-  magazineSize: 24
+  magazineSize: 12
   bulletsPerTap: 1
   fpsCam: {fileID: 1787564450980357393}
   muzzleFlash: {fileID: 3258472094845709016}
